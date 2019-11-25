@@ -9,19 +9,19 @@
 
 **重要**！：请从**课程评价**进入，不要从**成绩与排名**进入~
 
-![图](C:\Users\麦芽花生糖\Desktop\课程评价图标.png)
+![图](https://upload-images.jianshu.io/upload_images/20153052-eeb69cbe049dceeb.png?imageMogr2/auto-orient/strip|imageView2/2/w/236/format/webp)
 
 
 
 ## 选择一门你要填写的课程，进入到如下所示的页面
 
-![图](C:\Users\麦芽花生糖\Desktop\TIM图片20191125185154.png)
+![图](https://upload-images.jianshu.io/upload_images/20153052-5582ea0dcde982cf.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
 
 
 ## 按下键盘上的F12 ，弹出控制台，点击Console
 
-![tu](C:\Users\麦芽花生糖\Desktop\Console截图.png)
+![tu](https://upload-images.jianshu.io/upload_images/20153052-8332f4078ca512eb.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
 ## 将下面的代码复制粘贴到上图所示区域，按下回车即可
 

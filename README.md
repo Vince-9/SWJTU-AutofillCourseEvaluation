@@ -1,35 +1,32 @@
 # 教务网课程评价半自动填写脚本(测试版)
 
-由于兼容性问题，请使用Chrome或谷歌系浏览器如360极速、QQ浏览器、搜狗浏览器等，切勿使用IE
-虽然还需要一定手工操作，但是比全手动方便多了，不是吗
-
-
+由于兼容性问题，请使用Chrome或谷歌系浏览器如360极速、搜狗浏览器等，切勿使用IE  ；
+虽然还需要一定手工操作，但是比全手动方便多了，不是吗；
+目前测试成功的浏览器：最新版本的Chrome和Edge；
 
 # 使用步骤
 
 **重要**！：请从**课程评价**进入，不要从**成绩与排名**进入~
 
-![图](https://upload-images.jianshu.io/upload_images/20153052-eeb69cbe049dceeb.png?imageMogr2/auto-orient/strip|imageView2/2/w/236/format/webp)
+![课程评价图标.png](https://upload-images.jianshu.io/upload_images/20153052-eeb69cbe049dceeb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
+## 登录教务网，点击课程评价，选择一门你要填写的课程，进入到如下所示的页面
 
-## 选择一门你要填写的课程，进入到如下所示的页面
-
-![图](https://upload-images.jianshu.io/upload_images/20153052-5582ea0dcde982cf.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
-
+![TIM图片20191125185154.png](https://upload-images.jianshu.io/upload_images/20153052-5582ea0dcde982cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 按下键盘上的F12 ，弹出控制台，点击Console
 
-![tu](https://upload-images.jianshu.io/upload_images/20153052-8332f4078ca512eb.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![Console截图.png](https://upload-images.jianshu.io/upload_images/20153052-8332f4078ca512eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ## 将下面的代码复制粘贴到上图所示区域，按下回车即可
 
-由于教务网要求每份问卷至少填写一分钟，请喝口茶耐心等待
+由于教务网要求每份问卷至少填写一分钟，请喝口茶耐心等待，这门课程填写完毕后，再用相同操作填写其他课程即可~
 
 经过测试，有的电脑能够正常运行而有的电脑会报错，如遇问题请在评论区联系哦~
-
-```javascript
+```
 var Evaluater = class {
     constructor(params) {
         this.mainWindow = document.querySelector('#WindowMain8');
@@ -72,6 +69,3 @@ var Evaluater = class {
 
 var myEvaluater = new Evaluater();
 ```
-
-
-

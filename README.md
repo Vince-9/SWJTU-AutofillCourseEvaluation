@@ -27,7 +27,7 @@
 
 经过测试，有的电脑能够正常运行而有的电脑会报错，如遇问题请联系哦~
 ```javascript
-var Evaluater = class {
+new class {
     constructor(params) {
         this.mainWindow = document.querySelector('#WindowMain8');
         this.WindowFrame = this.mainWindow.querySelector('#WindowFrame8').contentDocument.childNodes[1];
@@ -54,7 +54,7 @@ var Evaluater = class {
     }
 
     submit() {
-        let tick = 62;
+        let tick = 15;
         console.log(`由于必须填写一分钟以上，${tick} 秒后将自动提交，请耐心等待~`);
         this.infoInterval = setInterval(() => {
             tick--;
@@ -63,8 +63,7 @@ var Evaluater = class {
         setTimeout(() => {
             clearInterval(this.infoInterval);
             this.submitBtn.click();
-        }, 62000);
+        }, tick * 1000);
     }
 }
-
-var myEvaluater = new Evaluater();
+```
